@@ -4,7 +4,9 @@ from sqlalchemy.orm import sessionmaker
 
 # SQLALCHEMY_DATABASE_URL = "sqlite:///./database.db"
 # SQLALCHEMY_DATABASE_URL = "postgresql://postgres:QWe45YU.@localhost:5432/ScissorApplicationDatabase"
-SQLALCHEMY_DATABASE_URL = "postgresql://gvpzdzwi:4Kh0inaihxsQMl-UgQKW2xQztDNtilSj@ziggy.db.elephantsql.com/gvpzdzwi"
+# SQLALCHEMY_DATABASE_URL = "postgresql://gvpzdzwi:4Kh0inaihxsQMl-UgQKW2xQztDNtilSj@ziggy.db.elephantsql.com/gvpzdzwi"
+SQLALCHEMY_DATABASE_URL = "postgresql://scissor_app_user:VwbiwFXMw3fkI1iUpTpXSya5S9Zo9Gee@dpg-d453up15pdvs73c557r0-a/scissor_app"
+
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL)
