@@ -1,7 +1,7 @@
-body {
+/* body {
     margin: auto;
     max-width: 1440px;
-    font-family: arial;
+    font-family: "Segoe UI", 'Arial';
     font-size: 16px;
     background-image: url('/static/url/Images/bg-aurora.svg'),
         url('/static/url/Images/bg-aurora-1.svg'),
@@ -9,9 +9,9 @@ body {
     background-position: right top, center top, left top, 400px 620px;
     background-repeat: no-repeat, no-repeat, no-repeat;
 
-}
+} */
 
-ul {
+/* ul {
     list-style: none;
     padding: 0;
 }
@@ -19,7 +19,7 @@ ul {
 a {
     text-decoration: none;
     color: #005AE2;
-}
+} */
 
 
 
