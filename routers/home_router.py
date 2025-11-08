@@ -16,6 +16,7 @@ router = APIRouter()
 session = Session(bind=engine)
 models.Base.metadata.create_all(bind=database.engine)
 
+
 templates=Jinja2Templates(directory="templates")
 
 
